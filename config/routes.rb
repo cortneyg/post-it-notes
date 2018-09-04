@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  resources :notes
+  resources :note
 
-  root 'notes#index'
+  root 'note#index'
   
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
